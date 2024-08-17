@@ -60,3 +60,7 @@ Rules of IEEE floating point:
 	- $f(a)$ is called the image of $a$ and the image of $f(\mathbf{A})$ is called the range of $f$.
 		- $f(\mathbf{A}) = \{f(a) : a\in\mathbf{A}\} \wedge f(\mathbf{A}) \subseteq \mathbf{B}$
 ### 2.1.1 Inverse Mappings
+
+$$
+\mathcal{O}
+$$
