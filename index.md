@@ -1,135 +1,81 @@
-# Tsevhu
-*a conlang created by* *[koallary](https://www.reddit.com/user/koallary/)*
 
----
-## Phonology
-### Consonants
+| **Özne**   | **möchen** | **mögen** | **an/kommen** | **züruck/fahren** | **mit/bringen** | **auf/räumen** |
+| :--------- | :--------- | :-------- | ------------- | ----------------- | --------------- | -------------- |
+| ich        | möchte     | mag       | komme ... an  | fahre ... zurück  | bringe ... mit  | räume ... auf  |
+| du         | möchtest   | magst     | kommst ... an | fährst ... zurück | bringst ... mit | räumst ... auf |
+| er/sie/est | möchte     | mag       | kommt ... an  | fährt ... zurück  | bringt ... mit  | räumt ... auf  |
+| wir        | möchten    | mögen     | kommen ... an | fahren ... zurück | bringen ... mit | räumen ... auf |
+| ihr        | möchtet    | mögt      | kommt ... an  | fahrt ... zurück  | bringt ... mit  | räumt ... auf  |
+| sie/Sie    | möchten    | mögen     | kommen ... an | fahren ... zurück | bringen ... mit | räumen ... auf |
 
-|               | **bilibial**   | **labio-dental** | **dental** | **alveolar**       | **post-alveolar**     | **palatal** | **velar**              | **uvular** | **glottal** |
-| ------------- | -------------- | ---------------- | ---------- | ------------------ | --------------------- | ----------- | ---------------------- | ---------- | ----------- |
-| **stop**      | p /p/, b /b/   |                  |            | t /t/, d /d/       |                       |             | k /k/ , kh /kʰ/, g /g/ | q /q/      | ' /ʔ/       |
-| **affricate** |                |                  |            | ts /ts/, (tz /dz/) | ch /tʃ/ (dj; tj /dʒ/) |             |                        |            |             |
-| **fricative** | ph /ɸ/, vh /β/ | f /f/, v /v/     | th /θ/     | s /s/, z /z/       | sh /ʃ/, j /ʒ/         | c /ç/       | x /x/                  |            | h /h/       |
-| **nasal**     | m /m/          |                  |            | n /n/              |                       |             |                        |            |             |
-| **liquid**    | w /w/          |                  |            | l /l/              | r /ɾ/, (rh /ɾʰ; r̥/)   | y /j/       |                        |            |             |
+| **Özne**   | **ab/holen** | **ein/kaufen** | **an/fangen** | **zu/hören** | **auf/stehen** | **an/ziehen** |
+| :--------- | :----------- | -------------- | ------------- | ------------ | -------------- | ------------- |
+| ich        | hole ... ab  | kaufe ... ein  | fange ... an  | höre ... zu  | stehe ... auf  | ziehe ... an  |
+| du         | holst ... ab | kaufst ... ein | fängst ... an | hörst ... zu | stehst ... auf | ziehst ... an |
+| er/sie/est | holt ... ab  | kauft ... ein  | fängt ... an  | hört ... zu  | steht ... auf  | zieht ... an  |
+| wir        | holen ... ab | kaufen ... ein | fangen ... an | hören ... zu | stehen ... auf | ziehen ... an |
+| ihr        | holt ... ab  | kauft ... ein  | fangt ... an  | hört ... zu  | steht ... auf  | zieht ... an  |
+| sie/Sie    | holen ... ab | kaufen ... ein | fangen ... an | hören ... zu | stehen ... auf | ziehen ... an |
 
-### Vovels
+| **Özne**   | **fern/sehen**  | **an/rufen** | **essen** | **trinken** |
+| :--------- | --------------- | ------------ | --------- | ----------- |
+| ich        | sehe ... fern   | rufe ... an  | esse      | trinke      |
+| du         | siehst ... fern | rufst ... an | isst      | trinkst     |
+| er/sie/est | sieht ... fern  | ruft ... an  | isst      | trinkt      |
+| wir        | sehen ... fern  | rufen ... an | essen     | trinken     |
+| ihr        | seht ... fern   | ruft ... an  | esst      | trinkt      |
+| sie/Sie    | sehen ... fern  | rufen ... an | essen     | trinken     |
 
-| | **Front** || **Back** |
-| ------------- | -------- | -------- |
-| **High** | i /i/, (ie /ijɛ/), (io /ijo/) || u /u/, w /ʍu/, (ue /uwɛ/) |
-| ^^ | ii /ɪ/ | | |
-| ^^ | ae /e/ |y /ə/ | o /o/, oi /ɔi/, (oe /owɛ/) |
-| ^^ | e /ɛ/, eu /œ/ | | |
-| **Low** | | |  a /ɑ/, au /aʊ/, ai /ai/ ||
+**esse:** yemek
+**trinken:** içmek
+**möchten:** istemek, arzu etmek
+**mögen:** sevmek, hoşuna gitmek
+**ankommen:** gelmek, varmak
+**zurückfahren:** geri dönmek
+**mitbringen:** yanında getirmek
+**aufräumen:** toplamak, düzeltmek
+**abholen:** gidip almak
+**einkaufen:** alışveriş yapmak
+**anfangen:** başlamak
+**zuhören:** dinlemek *(Ich höre Mutter zu.)*
+**aufstehen:** ayağa kalkmak, uyanmak
+**anziehen:** giyinmek
+**fernsehen:** televizyon izlemek
+**anrufen:** telefonla aramak
 
-## Months, Days, Seasons
-### Months
+<mark class="green">das</mark> **Obst:** meyve
+<mark class="green">das</mark> **Gemüse:** sebze
+<mark class="red">die</mark>  **Erdbeere*n*:** çilek*ler*
+<mark class="red">die</mark> **Aprikose*n*:** kayısı*lar*
+<mark class="blue">der</mark> **Blumenkohl*e*:** karnabahar*lar*
+<mark class="red">die</mark> **Zwiebel*n*:** soğan*lar*
+<mark class="red">die</mark> **Tomate*n*:** domates*ler*
+<mark class="red">die</mark> **Karotte:** havuç
+<mark class="red">die</mark> **Birne*n*:** armut*lar*
+<mark class="blue">der</mark> **Spinat:** ıspanak
+<mark class="red">die</mark> **Kartoffel:** patates
+<mark class="red">die</mark> **Orange:** portakal
+<mark class="red">die</mark> **Kirsche*n*:** kiraz*lar*
+<mark class="blue">der</mark> **A*Ä*pfel:** elma*lar*
+<mark class="red">die</mark> **Wassermelone*n*:** karpuz*lar*
+<mark class="red">der</mark> **Pfirsich:** şeftali
+<mark class="red">die</mark> **Traube*n*:** üzüm*ler*
+<mark class="red">die</mark> **Paprika*s*:** biber*ler*
+<mark class="red">die</mark> **Zucchini*s*:** kabak*lar*
+<mark class="red">die</mark> **Banane*n*:** muz*lar*
+<mark class="red">die</mark> **Bohne*n*:** fasulye*ler*
+<mark class="red">die</mark> **Erbse*n*:** bezelye*ler*
+<mark class="blue">der</mark> **Knoblauch*s*:** sarmısak*lar*
+<mark class="red">die</mark> **Aubergine*n*:** patlıcan*lar*
+<mark class="red">die</mark> **Gurke*n*:** salatalık*lar*
+<mark class="green">das</mark> **Ei:** yumurta
+<mark class="green">das</mark> **Brötchen:** ekmekçik
+<mark class="red">die</mark> **Pommes:** patates kızartması
+<mark class="green">das</mark> **Hähnchen:** tavuk
+<mark class="green">das</mark> **Butterbrot:** tereyağlı ekmek
+<mark class="blue">der</mark> **Fisch(e):** balık*lar*
+<mark class="red">die</mark> **Vorspiese:** apertif, başlangıç
+<mark class="red">die</mark> **Spiese:** yemek
+<mark class="red">die</mark> **Flasche:** şişe
 
-|  **English**  | **Koilang**  | **Meaning**   |
-| :-------- | -------- | --------- |
-|  January  | saejvel  | sand      |
-| February  | leqvel   | harvest   |
-|   March   | ashvel   | red       |
-|   April   | tikvel   | mushroom  |
-|    May    | jonvel   | movement  |
-|   June    | ikhvel   | ice       |
-|   July    | gwiivel  | snow      |
-|  August   | gliinvel | snow melt |
-| September | lenvel   | rain      |
-|  October  | bethvel  | flower    |
-| November  | kilvel   | greenery  |
-| December  | twnvek   | sky       |
-### Days
-
-| **English** | **Koilang** | **Meaning**    |
-| :---------- | ----------- | -------------- |
-| Sunday      | yhavliis    | creator        |
-| Monday      | sauliis     | big moon       |
-| Tuesday     | vhe'aliis   | small moon     |
-| Wednesday   | saejliis    | sand           |
-| Thursday    | tyauliis    | metal          |
-| Friday      | aeliis      | water          |
-| Saturday    | khaliis     | eqrth          |
-| Eightday    | kviliis     | return / eight |
-### Seasons
-
-| **English**                | **Koilang**    | **Meaning**                                                                  |
-| ---------------------- | ---------- | ------------------------------------------------------------------------ |
-| Autumn                 | yanua      | cool season                                                              |
-| Short Autumn           | ii'yanua   | little cool season; every 10 years                                       |
-| Summer                 | noaua      | long summer                                                              |
-| Short Summer           | ii'noaua   | small summer; every 10 years                                             |
-| Spring                 | bemyua     | warm season                                                              |
-| Short Spring           | ii'bemyua  | little warm season; every 10 years                                       |
-| Winter                 | tsulua     | small winter                                                             |
-| Long Winter            | tsanua     | long winter; every 10 years                                              |
-| Strange Winter         | 'atsanua   | strange winter                                                           |
-| Storm / Monsoon Season | khoqua     | occurs usually through summer                                            |
-| Harvest Season         | leqeua     | autumn                                                                   |
-| Flood Season           | saubua     | beginning of spring; especially after ii'bemyua; but can be any flooding |
-| Scroll Season          | juphenua   | counting food stock; end of autumn                                       |
-| Major Scroll Season    | sajuphenua | before tsanua                                                            |
-## Numbers, Coinage System
-### Numbers
-***Note:*** First number in the chart is used in counting up from 1 (hai is also used in time). Second number in the chart is the generally used modifier (number + noun).
-
-| **Number** | **Koilang** | **Number** | **Koilang** | **Number** | **Koilang**     |
-| ---------- | ----------- | ---------- | ----------- | ---------- | --------------- |
-| 0          | xa          | 10         | hai / mun   | 20         | tanmhai         |
-| 1          | vi          | 11         | vihai       | 21         | tanmvi          |
-| 2          | tan         | 12         | tanmun      | 22         | tanmta          |
-| 3          | leb         | 13         | lebhai      | 23         | tanmle          |
-| 4          | chas        | 14         | chashai     | 24         | tanmcha         |
-| 5          | qen         | 15         | qenmun      | 25         | tanmqe / camgyu |
-| 6          | mud         | 16         | mudhai      | 26         | tanmmu          |
-| 7          | teuk        | 17         | teukhai     | 27         | tanmteu         |
-| 8          | kvi         | 18         | kvihai      | 28         | tanmki          |
-| 9          | daec        | 19         | daecmun     | 29         | tanmdae         |
-
-| **Number** | **Koilang**  | **Number** | **Koilang**                | **Number**  | **Koilang**         |
-| ------ | -------- | ------ | ---------------------- | ------- | --------------- |
-| 30     | lebmhai  | 100    | hai'mun / cam          | 10000   | kesh            |
-| 31     | lebmvi   | 101    | camvi                  | 100000  | munkesh / mkesh |
-| 32     | lebmta   | 102    | camtan                 | 1000000 | keshka / shka   |
-| 33     | lebmle   | 110    | cammun                 |         |                 |
-| 44     | chasmcha | 111    | camvihai               |         |                 |
-| 55     | qenmqar  | 120    | camtanmhai / tanmunhai |         |                 |
-| 66     | mudmu    | 200    | tancam                 |         |                 |
-| 77     | teukmte  | 300    | lebcam                 |         |                 |
-| 88     | kvimki   | 1000   | haicam / mcam          |         |                 |
-| 99     | daecmdi  | 8000   | kvimcam                |         |                 |
-
-**Examples:**
-
-| **Number** | **Koilang**                   | **Meaning**                                        |
-| ------ | ------------------------- | ---------------------------------------------- |
-| 365    | lebcam mudmqe             | three hundred sixty-five                       |
-| 1001   | muncamvi                  | ten hundred one                                |
-| 7478   | teukmchacam teukmki       | seventy-four hundred seventy eigth             |
-| 96552  | daeckesh mudmqecam qenmta | nine ten thousand sixty-five hundred fifty-two |
-
-***Note:*** Usually, there's more than one way to write out numbers, especially with large numbers.
-***Note:*** camgyu (25), translates into quarter hundred.
-
-- The base number after ```-m-``` drops the final consonant. (Not any of the tens numbers.)
-- Add ```-'iin``` after numbers to make them ordinal.
-
-| ***Cardinal***             || ***Ordinal***               ||  
-| **English** | **Koilang** | **English** | **Koilang** |
-| ---------- | ---------- | ---------- | --------- |
-| one       | vi           | first       | vi'iin     |
-| two        | tan        | second | tan'iin  |
-| ten        | hai         | tenth    | hai'iin   |
-
-### Coinage System (Teptyu)
-
-| | ***Whole (mink)*** ||| ***Half (ram)*** ||| ***Quarter (pip)*** |||
-| ^^ | **Koilang** | **Meaning** | **Dollar Equivalent** | **Koilang** | **Meaning** | **Dollar Equivalent** | **Koilang** | **Meaning** | **Dollar Equivalent**  |
-|----|----|----|----|----|----|----|----|----|----|
-| **Coin Names** | tep*tio* | mink | | tep*syn* | ram | | tep*ro* | pip | |
-| **Copper** | tirep | tt; copper mink; coin | 10 Cents | tirzi | st; copper ram | 5 Cents | tirgyu | rt; copper pip | 2.5 Cents |
-|**Bronze**| shep | ts; bronze mink | 1 Dollar | shezi | ss; bronze ram | 50 Cents | shegyu |rs; bronze pip | 25 Cents |
-|**Silver**| ulep | tu; silver mink | 10 Dollars | ulezi | su; silver ram | 5 Dollars | ulgyu | ru; silver pip | 2.5 Dollars |
-|**Gold**| qoap | tq; gold mink | 100 Dollars | qozi |sq; gold ram | 50 Dollars | qogyu | rq; gold pip | 25 Dollars |
-|**Mythril**| dkap | td; mythril mink | 1000 Dollars | dkazi | sd; mythril ram | 500 Dollars | dkagyu | rd; mythril pip | 250 Dollars |
+**wichtig:** önemli
