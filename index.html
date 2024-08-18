@@ -13,18 +13,83 @@
 
 	<body>
 		<script src="scripts/prism.js"></script>
-		<h1> Devrim </h1>
+		<h1> Competitive Programmer’s Handbook </h1>
 
-		<div class="lale">
-		<h2>Barkın</h2>
-		<p1>Barkın Devrim'in oğludur.</p1>
-		</div>
-
-		<img src="MB1.png" alt="Oyundan fotoğraf" width="250" height="200">
-
-		<p title = "Ben yazdım"> Bu bir paragraf. </p>
-
-		<a href="https://meet.google.com/qqd-jukt-rsq">Meet'e git.</a>
+		<h2> Part I: Basic Techniques </h2> 
+		
+		<h3> Chapter 1: Introduction </h3>
+		
+		<h4> Programming Languages </h4>
+		
+		<h5> C++ Code Template </h5>
+		
+		<pre>
+		 	<code class="language-cpp" data-prismjs-copy="C++">
+				#include <bits/stdc++.h>
+				using namespace std;
+		
+				int main () {
+					// solution comes here
+				}
+			</code>
+		</pre>
+		
+		This code can be compiled using:
+		
+		<pre>
+		  <code class="language-bash" data-prismjs-copy="Bash">
+				g++ -std=c++11 -O2 -Wall test.cpp -o test
+		  </code>
+		</pre>
+		
+		or simply:
+		
+		<pre>
+		  <code class="language-bash" data-prismjs-copy="Bash">
+				g++ test.cpp -o test
+		  </code>
+		</pre>
+		
+		<h4> Input and Output </h4>
+		
+		<a href="https://en.cppreference.com/w/cpp/io/cin">`cin`</a> can be used for input.
+		
+		<pre>
+		  <code class="language-cpp" data-prismjs-copy="C++">
+				int a, b;
+		    string s;
+		    cin >> a >> b >> s;
+		  </code>
+		</pre>
+		
+		<a href="https://en.cppreference.com/w/cpp/io/cout">`cout`</a> can be used for output.
+		
+		<pre>
+		  <code class="language-cpp" data-prismjs-copy="C++">
+				int a = 123, b = 456;
+		    string s = "monkey";
+		    cout << a << " " << b << " " << s << "\n";
+		  </code>
+		</pre>
+		
+		The output of this code is:
+		
+		<pre>
+		  <code class="language-md" data-prismjs-copy="Output">
+				123 456 monkey
+		  </code>
+		</pre>
+		
+		> ***Note:*** <a href="https://en.cppreference.com/w/cpp/language/escape">`\n`</a> is used to create a newline and it is faster than <a href="https://en.cppreference.com/w/cpp/io/manip/endl">`endl`</a>. However, `endl` flushes the stream while `\n` does not.
+		
+		You can use the following commands to make input and output faster:
+		
+		<pre>
+		  <code class="language-cpp" data-prismjs-copy="C++">
+				ios::sync_with_stdio(0);
+		    cin.tie(0); cout.tie(0);
+		  </code>
+		</pre>
 
 		
 	</body>
