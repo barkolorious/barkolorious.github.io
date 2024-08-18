@@ -165,14 +165,30 @@ sort (a[l..r]) :
 ```
 
 ```cpp
-void sort (int* l, int* r) {
-	if (l == r) return;
-	int* m = l + (r - l) / 2;
-	sort(l, m), sort(m + 1, r);
-	
-	
+void merge_sort (int* begin, int* end) {
+  if (end - begin <= 1) return;
+  
+  int* mid = begin + (end - begin) / 2;
+  mergesort(begin, mid);
+  mergesort(mid, end);
+  
+  int *l = begin, *r = mid;
+  int b[end - begin];
+  int *i = b;
+  
+  while (l < mid || r < end) {
+    if (l >= mid) *i++ = *r++;
+    else if (r >= end) *i++ = *l++;
+    else if (*l >= *r) *i++ = *r++;
+    else *i++ = *l++;
+  }
+
+  i = b;
+  for (int* j = begin; j != end; j++)
+    *j = *i++;
 }
 ```
+
 
 ## Part II: Graph Algorithms
 
