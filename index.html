@@ -8,11 +8,25 @@
 				background: rgb(27,223,249);
 				background: linear-gradient(180deg, rgba(27,223,249,1) 0%, rgba(1,22,56,1) 48%);
 				color: rgb(238, 240, 242);
+				font-family: "Franklin Gothic", sans-serif;
 			}	
 		</style>
 	</head>
 
 	<body>
+		<script src="prism.js"></script>
+		<script src="plugins/normalize-whitespace/prism-normalize-whitespace.js"></script>
+		<script type="text/javascript">
+		// Optional
+		Prism.plugins.NormalizeWhitespace.setDefaults({
+			'remove-trailing': true,
+			'remove-indent': true,
+			'left-trim': true,
+			'right-trim': true,
+			'tabs-to-spaces': 4,
+		});
+		</script>
+		
 		<h1> Competitive Programmer’s Handbook </h1>
 
 		<h2> Part I: Basic Techniques </h2> 
@@ -90,18 +104,5 @@
 			  cin.tie(0); cout.tie(0);
 		  </code>
 		</pre>
-
-		<script src="prism.js"></script>
-		<script src="plugins/normalize-whitespace/prism-normalize-whitespace.js"></script>
-		<script type="text/javascript">
-		// Optional
-		Prism.plugins.NormalizeWhitespace.setDefaults({
-			'remove-trailing': true,
-			'remove-indent': true,
-			'left-trim': true,
-			'right-trim': true,
-			'tabs-to-spaces': 4,
-		});
-		</script>
 	</body>
 </html>
