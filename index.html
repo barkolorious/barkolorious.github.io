@@ -13,7 +13,6 @@
 	</head>
 
 	<body>
-		<script src="scripts/prism.js"></script>
 		<h1> Competitive Programmer’s Handbook </h1>
 
 		<h2> Part I: Basic Techniques </h2> 
@@ -92,6 +91,17 @@
 		  </code>
 		</pre>
 
-		
+		<script src="prism.js"></script>
+		<script src="plugins/normalize-whitespace/prism-normalize-whitespace.js"></script>
+		<script type="text/javascript">
+		// Optional
+		Prism.plugins.NormalizeWhitespace.setDefaults({
+			'remove-trailing': true,
+			'remove-indent': true,
+			'left-trim': true,
+			'right-trim': true,
+			'tabs-to-spaces': 4,
+		});
+		</script>
 	</body>
 </html>
