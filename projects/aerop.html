@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AEROP Logo - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="project-container">
+    <div>
+      <a href="../index.html" class="back-link">← Back to Portfolio</a>
+      <div class="image-grid">
+        <div class="image-wrapper">
+          <img src="../assets/aerop/img00.png" alt="Final design" onclick="openModal(this.src, 'image', this.nextElementSibling.textContent)">
+          <p class="image-caption"><center>Final design</center></p>
+        </div>
+
+        <div class="image-wrapper">
+          <img src="../assets/aerop/img01.png" alt="Different color schemes" onclick="openModal(this.src, 'image', this.nextElementSibling.textContent)">
+          <p class="image-caption"><center>Different color schemes</center></p>
+        </div>
+
+        <div class="image-wrapper">
+          <img src="../assets/aerop/img02.png" alt="Different orientations" onclick="openModal(this.src, 'image', this.nextElementSibling.textContent)">
+          <p class="image-caption"><center>Different orientations</center></p>
+        </div>
+
+        <div class="image-wrapper">
+          <img src="../assets/aerop/img03.png" alt="First attempt" onclick="openModal(this.src, 'image', this.nextElementSibling.textContent)">
+          <p class="image-caption"><center>First attempt</center></p>
+        </div>
+
+        <div class="image-wrapper">
+          <img src="../assets/aerop/img04.png" alt="Different orientations and colors" onclick="openModal(this.src, 'image', this.nextElementSibling.textContent)">
+          <p class="image-caption"><center>Different orientations and colors</center></p>
+        </div>
+
+        <div class="image-wrapper">
+          <img src="../assets/aerop/img05.png" alt="A mock-up" onclick="openModal(this.src, 'image', this.nextElementSibling.textContent)">
+          <p class="image-caption"><center>A mock-up</center></p>
+        </div>
+
+        <div class="image-wrapper">
+          <img src="../assets/aerop/img06.png" alt="Another mock-up" onclick="openModal(this.src, 'image', this.nextElementSibling.textContent)">
+          <p class="image-caption"><center>Another mock-up</center></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="project-info">
+      <h2>AEROP Logo</h2>
+        <div class="tags">
+          <span class="tag">Logo</span>
+        </div>
+      <p>My friend yavuzskarahan aka Yavuz Selim Karahan, has a project called AEROP which is basically and "drone design optimization" program. It does have a logo but I wanted to give it a try.</p>
+      <p>When I made this logo I've just started to listen IDKHOW and I loved their album covers. I tried to replicate the vibe. So I stole the colors of the album "1981 Extended Play".</p>
+      <p>My first attempts looked like MasterCard so I tried changing them and made the propeller design. It can be improved like making it better for monochrome? I don't know. I'll keep working on it.</p>
+
+    </div>
+  </div>
+
+  <div class="modal" id="imageModal">
+    <button class="close-modal" onclick="closeModal()">×</button>
+    <div id="modalContent"></div>
+    <p id="modalCaption" class="image-caption"></p>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <p>© 2024 barkolorious</p>
+      <p class="last-updated">Last updated: <span id="lastUpdated">December 28, 2024</span></p>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
