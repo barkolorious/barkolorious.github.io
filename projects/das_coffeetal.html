@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Das Coffeetal - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="project-container">
+    <div>
+      <a href="../index.html" class="back-link">← Back to Portfolio</a>
+      <div class="image-grid">
+        <div class="image-wrapper">
+          <img src="../assets/das_coffeetal/img00.png" alt="Final design" onclick="openModal(this.src, 'image', this.nextElementSibling.textContent)">
+          <p class="image-caption"><center>Final design</center></p>
+        </div>
+
+        <div class="image-wrapper">
+          <img src="../assets/das_coffeetal/img01.png" alt="First sketch" onclick="openModal(this.src, 'image', this.nextElementSibling.textContent)">
+          <p class="image-caption"><center>First sketch</center></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="project-info">
+      <h2>Das Coffeetal</h2>
+        <div class="tags">
+          <span class="tag">Logo</span>
+        </div>
+      <p>One day when I was talking to my brother I had an amazing idea. Nowadays, there are so many concept coffee shops and why not open a one with a communism concept, maybe you could open it in METU.</p>
+      <p>If you haven't figured it out yet, the name is a word play on "Das Kapital". I think it is funny.</p>
+      <p>In the first sketch I wanted the logo to be a coffee cup. But my brother suggested it to be a coffee pot. I think it's better. You can see the sickle as a part of the handle with the spoon standing for the hammer.</p>
+      <p>The font is "Bourgeois" the font of METU and it looks similar to Cyrillic alphabet.</p>
+
+    </div>
+  </div>
+
+  <div class="modal" id="imageModal">
+    <button class="close-modal" onclick="closeModal()">×</button>
+    <div id="modalContent"></div>
+    <p id="modalCaption" class="image-caption"></p>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <p>© 2024 barkolorious</p>
+      <p class="last-updated">Last updated: <span id="lastUpdated">December 28, 2024</span></p>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>

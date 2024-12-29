@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LBU Logo Redisgn - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="project-container">
+    <div>
+      <a href="../index.html" class="back-link">← Back to Portfolio</a>
+      <div class="image-grid">
+        <div class="image-wrapper">
+          <img src="../assets/liselerde_bilim_uygulamalari/img00.png" alt="Design1" onclick="openModal(this.src, 'image', this.nextElementSibling.textContent)">
+          <p class="image-caption"><center>Design1</center></p>
+        </div>
+
+        <div class="image-wrapper">
+          <img src="../assets/liselerde_bilim_uygulamalari/img01.png" alt="Design2" onclick="openModal(this.src, 'image', this.nextElementSibling.textContent)">
+          <p class="image-caption"><center>Design2</center></p>
+        </div>
+
+        <div class="image-wrapper">
+          <img src="../assets/liselerde_bilim_uygulamalari/img02.png" alt="Current Design" onclick="openModal(this.src, 'image', this.nextElementSibling.textContent)">
+          <p class="image-caption"><center>Current Design</center></p>
+        </div>
+
+        <div class="image-wrapper">
+          <img src="../assets/liselerde_bilim_uygulamalari/img03.png" alt="Different font for Design1" onclick="openModal(this.src, 'image', this.nextElementSibling.textContent)">
+          <p class="image-caption"><center>Different font for Design1</center></p>
+        </div>
+
+        <div class="image-wrapper">
+          <img src="../assets/liselerde_bilim_uygulamalari/img04.png" alt="Different color scheme for Design1" onclick="openModal(this.src, 'image', this.nextElementSibling.textContent)">
+          <p class="image-caption"><center>Different color scheme for Design1</center></p>
+        </div>
+
+        <div class="image-wrapper">
+          <img src="../assets/liselerde_bilim_uygulamalari/img05.png" alt="Different color scheme for Design1" onclick="openModal(this.src, 'image', this.nextElementSibling.textContent)">
+          <p class="image-caption"><center>Different color scheme for Design1</center></p>
+        </div>
+
+        <div class="image-wrapper">
+          <img src="../assets/liselerde_bilim_uygulamalari/img06.png" alt="Different color schemes for Design2" onclick="openModal(this.src, 'image', this.nextElementSibling.textContent)">
+          <p class="image-caption"><center>Different color schemes for Design2</center></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="project-info">
+      <h2>LBU Logo Redisgn</h2>
+        <div class="tags">
+          <span class="tag">Logo</span><span class="tag">Redesign</span>
+        </div>
+      <p>When I participated in LBU, I hated the logo. I think it looks disgusting. So, I tried to design my own version.</p>
+      <p>I made 2 designs. I think Design1 is better however I don't know it is really usable in the event. The second design is much more usable but very very boring.</p>
+      <p>But in my opinion, both designs are much much better than the current one.</p>
+
+    </div>
+  </div>
+
+  <div class="modal" id="imageModal">
+    <button class="close-modal" onclick="closeModal()">×</button>
+    <div id="modalContent"></div>
+    <p id="modalCaption" class="image-caption"></p>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <p>© 2024 barkolorious</p>
+      <p class="last-updated">Last updated: <span id="lastUpdated">December 28, 2024</span></p>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>

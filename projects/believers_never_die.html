@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Be(lie)vers Never Die - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="project-container">
+    <div>
+      <a href="../index.html" class="back-link">← Back to Portfolio</a>
+      <div class="image-grid">
+        <div class="image-wrapper">
+          <img src="../assets/believers_never_die/img00.png" alt="Main design" onclick="openModal(this.src, 'image', this.nextElementSibling.textContent)">
+          <p class="image-caption"><center>Last Design</center></p>
+        </div>
+        
+        <div class="image-wrapper">
+          <img src="../assets/believers_never_die/img01.png" alt="Process" onclick="openModal(this.src, 'image', this.nextElementSibling.textContent)">
+          <p class="image-caption"><center>First attempt</center></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-info">
+      <h2>Be(lie)vers Never Die</h2>
+      <div class="tags">
+        <span class="tag">Playlist Cover</span>
+      </div>
+      <p>Playlist cover for borealis aka Elif Bengisu Gezder. The font is "Kurs" which is the font used in Singapore World Chess Championship 2024. When I saw this font I knew I had to use it somewhere and this was the right place to use it.</p>
+      <p>In my first attempt I used a bad color scheme which I change to monochrome black and red. And the stripe in the first attemp wasn't good, it looked out of place but in the final version I think it fits right in.</p>
+    </div>
+  </div>
+
+  <div class="modal" id="imageModal">
+    <button class="close-modal" onclick="closeModal()">×</button>
+    <div id="modalContent"></div>
+    <p id="modalCaption" class="image-caption"></p>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <p>© 2024 barkolorious</p>
+      <p class="last-updated">Last updated: <span id="lastUpdated">December 28, 2024</span></p>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
