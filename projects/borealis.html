@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>borealis Logo - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="project-container">
+    <div>
+      <a href="../index.html" class="back-link">← Back to Portfolio</a>
+      <div class="image-grid">
+        <div class="image-wrapper">
+          <img src="../assets/borealis/img00.png" alt="Final design" onclick="openModal(this.src, 'image', this.nextElementSibling.textContent)">
+          <p class="image-caption"><center>Final design</center></p>
+        </div>
+
+        <div class="image-wrapper">
+          <img src="../assets/borealis/img01.png" alt="First attempt" onclick="openModal(this.src, 'image', this.nextElementSibling.textContent)">
+          <p class="image-caption"><center>First attempt</center></p>
+        </div>
+
+        <div class="image-wrapper">
+          <img src="../assets/borealis/img02.png" alt="With text" onclick="openModal(this.src, 'image', this.nextElementSibling.textContent)">
+          <p class="image-caption"><center>With text</center></p>
+        </div>
+
+        <div class="image-wrapper">
+          <img src="../assets/borealis/img03.png" alt="With score lines" onclick="openModal(this.src, 'image', this.nextElementSibling.textContent)">
+          <p class="image-caption"><center>With score lines</center></p>
+        </div>
+
+        <div class="image-wrapper">
+          <img src="../assets/borealis/img04.png" alt="Inspiration" onclick="openModal(this.src, 'image', this.nextElementSibling.textContent)">
+          <p class="image-caption"><center>Inspiration</center></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="project-info">
+      <h2>borealis Logo</h2>
+        <div class="tags">
+          <span class="tag">Logo</span>
+        </div>
+      <p>My friend borealis aka Elif Bengisu Gezder didn't have any profile picture so I wanted to design a logo for her to use. Her username is coronaborealis or borealis for short and she is interested in music so I tried to combine these two. I called it scorealis.</p>
+      <p>I used the music symbols and the constellation. The duration of notes approximately represents the size of the stars.</p>
+      <p>She liked the design so she used it. However, now she doesn't use it bu I don't know why</p>
+
+    </div>
+  </div>
+
+  <div class="modal" id="imageModal">
+    <button class="close-modal" onclick="closeModal()">×</button>
+    <div id="modalContent"></div>
+    <p id="modalCaption" class="image-caption"></p>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <p>© 2024 barkolorious</p>
+      <p class="last-updated">Last updated: <span id="lastUpdated">December 28, 2024</span></p>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
