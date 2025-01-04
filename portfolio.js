@@ -1,4 +1,62 @@
 // Project data stored directly in the JavaScript file to avoid CORS issues
+const projectsData = {
+  "projects": [
+    {
+      "id": "borealis",
+      "title": "borealis Logo",
+      "tags": ["Logo"],
+      "description": "Logo for borealis"
+    },
+    {
+      "id": "das_coffeetal",
+      "title": "Das Coffeetal",
+      "tags": ["Logo"],
+      "description": "Logo for an imaginary concept coffee shop \"Das Coffeetal\"."
+    },
+    {
+      "id": "believers_never_die",
+      "title": "Be(lie)vers Never Die",
+      "tags": ["Playlist Cover"],
+      "description": "Playlist cover for borealis"
+    },
+    {
+      "id": "barkolorious",
+      "title": "barkolorious Logo",
+      "tags": ["Logo"],
+      "description": "My logo which represents a blackhole"
+    },
+    {
+      "id": "opaque",
+      "title": "opaque Logo",
+      "tags": ["Logo"],
+      "description": "Logo design for my project \"opaque: Open-source Portable Air Quality Evaluator\""
+    },
+    {
+      "id": "aerop",
+      "title": "AEROP Logo",
+      "tags": ["Logo"],
+      "description": "Logo for yavuzskarahan's project \"AEROP\"."
+    },
+    {
+      "id": "fource",
+      "title": "Fource Logo",
+      "tags": ["Logo"],
+      "description": "Logo design for my project \"Fource: Fourier based Complex Encryption\""
+    },
+    {
+      "id": "liselerde_bilim_uygulamalari",
+      "title": "LBU Logo Redisgn",
+      "tags": ["Logo", "Redesign"],
+      "description": "Redesigning the LBU logo."
+    },
+    {
+      "id": "airqm",
+      "title": "AirQ-M",
+      "tags": ["Logo"],
+      "description": "Logo for my project \"AirQ-M: Air Quality Meter\""
+    }
+  ]
+};
 
 // Function to create a portfolio item element
 function createPortfolioItem(project) {
@@ -25,7 +83,6 @@ function createPortfolioItem(project) {
 // Function to load and render projects
 function loadProjects() {
   try {
-    const projectsData = fetch("projects.json").then(data => console.log(data));
     const portfolioGrid = document.querySelector('.portfolio-grid');
     
     // Clear existing content
