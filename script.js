@@ -169,6 +169,7 @@ function loadContent() {
     } else {
       mainContent.className = 'portfolio-grid';
       mainContent.innerHTML = '';
+      document.title = `My Design Portfolio`;
       
       projectsData.projects.forEach(project => {
         const portfolioItem = createPortfolioItem(project);
@@ -216,9 +217,9 @@ function generateProjectPage(project) {
               <img 
                 src="assets/${project.id}/img${String(index).padStart(2, '0')}.png" 
                 alt="${caption}"
-                onclick="openModal(this.src, 'image', this.nextElementSibling.textContent)"
+                onclick="openModal(this.src, this.nextElementSibling.textContent)"
               >
-              <p class="image-caption"><center>Figure ${index + 1}: ${caption}</center></p>
+              <center><p class="image-caption">Figure ${index + 1}: ${caption}</p></center>
             </div>
           `).join('')}
         </div>
@@ -236,7 +237,7 @@ function generateProjectPage(project) {
     <div class="modal" id="imageModal">
       <button class="close-modal" onclick="closeModal()">×</button>
       <div id="modalContent"></div>
-      <p id="modalCaption" class="image-caption"></p>
+      <center><p id="modalCaption" class="image-caption"></p></center>
     </div>
   `;
   
@@ -254,14 +255,13 @@ document.addEventListener('error', function(e) {
 
 // -----------------------------------------------
 
-function openModal(content, type, caption = '') {
+function openModal(content, caption = '') {
   const modal = document.getElementById('imageModal');
   const modalContent = document.getElementById('modalContent');
   const modalCaption = document.getElementById('modalCaption');
   modal.style.display = 'block';
   
   modalContent.innerHTML = `<img src="${content}" alt="Full size image">`;
-  
   modalCaption.textContent = caption;
 }
 
@@ -281,5 +281,5 @@ document.addEventListener('keydown', function(e) {
   }
 });
 
-const lastEditDate = '2024-12-29';
+const lastEditDate = '2025-1-5';
 document.getElementById('lastUpdated').textContent = new Date(lastEditDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
