@@ -3,7 +3,9 @@ const projectsData = {
     {
       "id": "borealis",
       "title": "borealis Logo",
-      "tags": ["Logo"],
+      "tags": [
+        "Logo"
+      ],
       "description": "Logo for borealis",
       "statement": [
         "My friend borealis aka Elif Bengisu Gezder didn't have any profile picture so I wanted to design a logo for her to use. Her username is coronaborealis or borealis for short and she is interested in music so I tried to combine these two. I called it scorealis.",
@@ -17,10 +19,13 @@ const projectsData = {
         "With score lines",
         "Inspiration"
       ]
-    }, {
+    },
+    {
       "id": "airqm",
       "title": "AirQ-M Logo",
-      "tags": ["Logo"],
+      "tags": [
+        "Logo"
+      ],
       "description": "Logo for my project \"AirQ-M: Air Quality Meter\"",
       "statement": [
         "Logo for my project \"AirQ-M: Air Quality Meter\""
@@ -30,10 +35,13 @@ const projectsData = {
         "First sketch",
         "Other attempt"
       ]
-    }, {
+    },
+    {
       "id": "das_coffeetal",
       "title": "Das Coffeetal Logo",
-      "tags": ["Logo"],
+      "tags": [
+        "Logo"
+      ],
       "description": "Logo for an imaginary concept coffee shop \"Das Coffeetal\".",
       "statement": [
         "One day when I was talking to my brother I had an amazing idea. Nowadays, there are so many concept coffee shops and why not open a one with a communism concept, maybe you could open it in METU.",
@@ -45,10 +53,14 @@ const projectsData = {
         "Final design",
         "First sketch"
       ]
-    }, {
+    },
+    {
       "id": "liselerde_bilim_uygulamalari",
       "title": "LBU Logo Redisgn",
-      "tags": ["Logo", "Redesign"],
+      "tags": [
+        "Logo",
+        "Redesign"
+      ],
       "description": "Redesigning the LBU logo.",
       "statement": [
         "When I participated in LBU, I hated the logo. I think it looks disgusting. So, I tried to design my own version.",
@@ -64,10 +76,13 @@ const projectsData = {
         "Different color scheme for Design1",
         "Different color schemes for Design2"
       ]
-    }, {
+    },
+    {
       "id": "fource",
       "title": "Fource Logo",
-      "tags": ["Logo"],
+      "tags": [
+        "Logo"
+      ],
       "description": "Logo design for my project \"Fource: Fourier based Complex Encryption\"",
       "statement": [
         "I have an encryption project based on Discrete Fourier Transform and linear algebra.",
@@ -79,10 +94,13 @@ const projectsData = {
         "Final design",
         "Different color schemes"
       ]
-    }, {
+    },
+    {
       "id": "aerop",
       "title": "AEROP Logo",
-      "tags": ["Logo"],
+      "tags": [
+        "Logo"
+      ],
       "description": "Logo for yavuzskarahan's project \"AEROP\".",
       "statement": [
         "My friend yavuzskarahan aka Yavuz Selim Karahan, has a project called AEROP which is basically an \"drone design optimization\" program. It does have a logo but I wanted to give it a try.",
@@ -98,10 +116,13 @@ const projectsData = {
         "A mock-up",
         "Another mock-up"
       ]
-    }, {
+    },
+    {
       "id": "opaque",
       "title": "opaque Logo",
-      "tags": ["Logo"],
+      "tags": [
+        "Logo"
+      ],
       "description": "Logo design for my project \"opaque: Open-source Portable Air Quality Evaluator\".",
       "statement": [
         "Logo design for my project \"opaque: Open-source Portable Air Quality Evaluator\""
@@ -115,10 +136,13 @@ const projectsData = {
         "Rounder and bigger",
         "Squarer"
       ]
-    }, {
+    },
+    {
       "id": "barkolorious",
       "title": "barkolorious Logo",
-      "tags": ["Logo"],
+      "tags": [
+        "Logo"
+      ],
       "description": "My logo which represents a blackhole",
       "statement": [
         "Logo for myself. I wanted a blackhole logo which was inspired of Kurzgesagt's blackhole. However, there are endless blackhole logos in the internet. So I wanted mein to stand out. So I tried several design but when I was poking around with Inkscape's perspective tool, I accidentaly made the last design. And it looked just right.",
@@ -133,10 +157,13 @@ const projectsData = {
         "Last design with border",
         "Inspiration"
       ]
-    }, {
+    },
+    {
       "id": "believers_never_die",
       "title": "Be(lie)vers Never Die Playlist Cover",
-      "tags": ["Playlist Cover"],
+      "tags": [
+        "Playlist Cover"
+      ],
       "description": "Playlist cover for borealis",
       "statement": [
         "Playlist cover for borealis aka Elif Bengisu Gezder. The font is \"Kurs\" which is the font used in Singapore World Chess Championship 2024. When I saw this font I knew I had to use it somewhere and this was the right place to use it.",
@@ -144,7 +171,25 @@ const projectsData = {
       ],
       "captions": [
         "Final design",
-        "Fir"
+        "First design"
+      ]
+    },
+    {
+      "id": "japanese_pureirisuto",
+      "title": "Japanese Pureirisuto Playlist Cover",
+      "tags": [
+        "Playlist Cover"
+      ],
+      "description": "Playlist cover for myself",
+      "statement": [
+        "As I was making this design, I had recently watched Evangelion also the lyrics video of \"Ado - unravel Cover\". Both of them have very cool vibes and I wanted to recreate it.",
+        "The font is \"FOT-Matisse Pro\" which is the font of Evangelion title cards"
+      ],
+      "captions": [
+        "Final design",
+        "First sketch",
+        "Second sketch",
+        "Third sketch"
       ]
     }
   ]
