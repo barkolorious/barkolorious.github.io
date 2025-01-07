@@ -242,6 +242,39 @@ const projectsData = {
         "First sketches with",
         "Current dessign"
       ]
+    },
+    {
+      "id": "bozsoy",
+      "title": "bözsoy Logo",
+      "tags": [
+        "Logo"
+      ],
+      "description": "Logo for personal brand identity",
+      "statement": [
+        "I don't use this"
+      ],
+      "captions": [
+        "Final design",
+        "First sketches for final design",
+        "First sketches"
+      ]
+    },
+    {
+      "id": "iflbot",
+      "title": "iflbot(); Logo",
+      "tags": [
+        "Logo"
+      ],
+      "description": "Logo for IFL Informatics Olympiad Team \"iflbot\".",
+      "statement": [],
+      "captions": [
+        "Final design",
+        "First sketch",
+        "First sketch mock-up",
+        "Second sketch",
+        "Third sketch",
+        "Fourth sketch"
+      ]
     }
   ]
 };
