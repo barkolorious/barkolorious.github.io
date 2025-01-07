@@ -171,7 +171,7 @@ const projectsData = {
       ],
       "captions": [
         "Final design",
-        "First design"
+        "Fir"
       ]
     },
     {
@@ -190,6 +190,57 @@ const projectsData = {
         "First sketch",
         "Second sketch",
         "Third sketch"
+      ]
+    },
+    {
+      "id": "one_more_time",
+      "title": "One More Time Playlist Cover",
+      "tags": [
+        "Playlist Cover"
+      ],
+      "description": "Playlist cover for myself",
+      "statement": [],
+      "captions": [
+        "Final design",
+        "Final design's first sketch",
+        "Final design's second sketch",
+        "First sketch",
+        "Another sketch"
+      ]
+    },
+    {
+      "id": "playloop",
+      "title": "Playloop Playlist Cover",
+      "tags": [
+        "Playlist Cover"
+      ],
+      "description": "Playlist cover for myself",
+      "statement": [],
+      "captions": [
+        "Final design",
+        "First sketch of first design",
+        "First design",
+        "First sketch for second design",
+        "Second design"
+      ]
+    },
+    {
+      "id": "4chan",
+      "title": "4chan Logo Redesign",
+      "tags": [
+        "Logo",
+        "Redesign"
+      ],
+      "description": "Redesigning the 4chan logo",
+      "statement": [
+        "Used \"Zilla Slab\" in the first skecthes."
+      ],
+      "captions": [
+        "Final design",
+        "Final design first sketches",
+        "Final design first sketches",
+        "First sketches with",
+        "Current dessign"
       ]
     }
   ]
