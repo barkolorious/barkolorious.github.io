@@ -24,7 +24,8 @@
       "id": "airqm",
       "title": "AirQ-M Logo",
       "tags": [
-        "Logo"
+        "Logo",
+        "Project"
       ],
       "description": "Logo for my project \"AirQ-M: Air Quality Meter\"",
       "statement": [
@@ -81,7 +82,8 @@
       "id": "fource",
       "title": "Fource Logo",
       "tags": [
-        "Logo"
+        "Logo",
+        "Project"
       ],
       "description": "Logo design for my project \"Fource: Fourier based Complex Encryption\"",
       "statement": [
@@ -99,7 +101,8 @@
       "id": "aerop",
       "title": "AEROP Logo",
       "tags": [
-        "Logo"
+        "Logo",
+        "Project"
       ],
       "description": "Logo for yavuzskarahan's project \"AEROP\".",
       "statement": [
@@ -121,11 +124,13 @@
       "id": "opaque",
       "title": "opaque Logo",
       "tags": [
-        "Logo"
+        "Logo",
+        "Project"
       ],
       "description": "Logo design for my project \"opaque: Open-source Portable Air Quality Evaluator\".",
       "statement": [
-        "Logo design for my project \"opaque: Open-source Portable Air Quality Evaluator\""
+        "Logo design for my project \"opaque: Open-source Portable Air Quality Evaluator\"",
+        "And I know it kind of looks like dbrand's logo."
       ],
       "captions": [
         "Final design",
