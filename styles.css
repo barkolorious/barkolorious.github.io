@@ -206,8 +206,8 @@ h1 {
 
 .modal img,
 .modal object {
-  max-width: 90%;
-  max-height: 90vh;
+  max-height: 90%;
+  max-width: 90vh;
   margin: auto;
   position: absolute;
   top: 50%;
