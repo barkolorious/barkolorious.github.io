@@ -300,6 +300,21 @@ function loadContent() {
       } else {
         mainContent.innerHTML = '<p class="error">Project not found</p>';
       }
+    } else if (hash.startsWith("#tag/")) {
+      const tagId = decodeURI(hash.replace('#tag/', ''));
+      console.log(tagId);
+
+      mainContent.className = 'portfolio-grid';
+      mainContent.innerHTML = '';
+      document.title = `My Design Portfolio - ${tagId}s`;
+
+      projectsData.projects.forEach(project => {
+        if (project.tags.includes(tagId)) {
+        const portfolioItem = createPortfolioItem(project);
+        mainContent.appendChild(portfolioItem);
+        }
+      });
+      
     } else {
       mainContent.className = 'portfolio-grid';
       mainContent.innerHTML = '';
@@ -329,7 +344,7 @@ function createPortfolioItem(project) {
     <div class="item-content">
       <h2>${project.title}</h2>
       <div class="tags">
-        ${project.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+        ${project.tags.map(tag => `<a href="#tag/${tag}"><span class="tag">${tag}</span></a>`).join('')}
       </div>
       <p>${project.description}</p>
     </div>
@@ -353,7 +368,7 @@ function generateProjectPage(project) {
                 alt="${caption}"
                 onclick="openModal(this.src, this.nextElementSibling.textContent)"
               >
-              <center><p class="image-caption">Figure ${index + 1}: ${caption}</p></center>
+              <p class="image-caption">Figure ${index + 1}: ${caption}</p>
             </div>
           `).join('')}
         </div>
@@ -371,7 +386,7 @@ function generateProjectPage(project) {
     <div class="modal" id="imageModal">
       <button class="close-modal" onclick="closeModal()">×</button>
       <div id="modalContent"></div>
-      <center><p id="modalCaption" class="image-caption"></p></center>
+      <p id="modalCaption" class="image-caption"></p>
     </div>
   `;
   
