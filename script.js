@@ -342,7 +342,7 @@ function createPortfolioItem(project) {
       <img src="assets/${project.id}/img00.png" alt="${project.title}">
     </div>
     <div class="item-content">
-      <h2>${project.title}</h2>
+      <h1>${project.title}</h1>
       <div class="tags">
         ${project.tags.map(tag => `<a href="#tag/${tag}"><span class="tag">${tag}</span></a>`).join('')}
       </div>
@@ -375,7 +375,7 @@ function generateProjectPage(project) {
       </div>
 
       <div class="project-info">
-        <h2>${project.title}</h2>
+        <h1>${project.title}</h1>
         <div class="tags">
           ${project.tags.map(tag => `<a href="#tag/${tag}"><span class="tag">${tag}</span></a>`).join('')}
         </div>
