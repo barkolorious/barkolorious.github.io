@@ -377,7 +377,7 @@ function generateProjectPage(project) {
       <div class="project-info">
         <h2>${project.title}</h2>
         <div class="tags">
-          ${project.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+          ${project.tags.map(tag => `<a href="#tag/${tag}"><span class="tag">${tag}</span></a>`).join('')}
         </div>
         ${project.statement.map(paragraph => `<p>${paragraph}</p>`).join('')}
       </div>
