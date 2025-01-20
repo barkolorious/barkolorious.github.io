@@ -30,7 +30,7 @@ body {
 header {
   background-color: var(--bg-secondary);
   padding: 1rem;
-  min-width: clamp(1100px, 80vw, 1300px);
+  min-width: clamp(0px, 75vw, 1300px);
   margin: auto;
   margin-top: 1vw;
   text-align: center;
@@ -75,6 +75,7 @@ header h1 {
   width: 100%;
   padding-top: min(100%, 400px);
   overflow: hidden;
+  /* filter: blur(40px) brightness(10); */
 }
 
 .portfolio-item:hover {
