@@ -318,6 +318,14 @@ function loadContent() {
       });
       
     } else {
+      projectsData.projects.sort((a, b) => {
+        const title_a = a.title.toUpperCase();
+        const title_b = b.title.toUpperCase();
+        if (title_a < title_b) return -1;
+        else if (title_b < title_a) return 1;
+        return 0;
+      })
+
       mainContent.className = 'portfolio-grid';
       mainContent.innerHTML = '';
       document.title = `My Design Portfolio`;
