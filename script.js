@@ -274,6 +274,8 @@ const projectsData = {
       "statement": [],
       "captions": [
         "Final design",
+        "Mock-up for final design",
+        "Small logo",
         "First sketch",
         "First sketch mock-up",
         "Second sketch",
