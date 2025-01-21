@@ -271,7 +271,7 @@ const projectsData = {
         "Logo"
       ],
       "description": "Logo for IFL Informatics Olympiad Team \"iflbot\".",
-      "statement": [],
+      "statement": ["Logo for IFL Informatics Olympiad Team \"iflbot\"."],
       "captions": [
         "Final design",
         "Mock-up for final design",
