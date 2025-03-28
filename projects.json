@@ -271,7 +271,9 @@
         "Logo"
       ],
       "description": "Logo for IFL Informatics Olympiad Team \"iflbot\".",
-      "statement": ["Logo for IFL Informatics Olympiad Team \"iflbot\"."],
+      "statement": [
+        "Logo for IFL Informatics Olympiad Team \"iflbot\"."
+      ],
       "captions": [
         "Final design",
         "Mock-up for final design",
@@ -281,6 +283,29 @@
         "Second sketch",
         "Third sketch",
         "Fourth sketch"
+      ]
+    },
+    {
+      "id": "metu_phys",
+      "title": "METU Department of Physics Logo ",
+      "tags": [
+        "Logo"
+      ],
+      "description": "My submission for the METU Physics Department logo competition.",
+      "statement": [
+        "My submission for the METU Physics Department logo competition.",
+        "I wanted to use magnetic field lines. I tried making the METU logo with them and the letter phi (you know for physics). After I completed the design one of my brother's friend said that it kinda has an apple in it, so there is that. I couldn't win anything :(."
+      ],
+      "captions": [
+        "Final design",
+        "Constructors for the field lines",
+        "First iteration",
+        "Different designs",
+        "More designs",
+        "Final design in different backgrounds",
+        "The components",
+        "Final design in different sizes",
+        "Mock-up for the final design"
       ]
     }
   ]
