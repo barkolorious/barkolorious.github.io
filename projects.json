@@ -57,7 +57,7 @@
     },
     {
       "id": "liselerde_bilim_uygulamalari",
-      "title": "LBU Logo Redisgn",
+      "title": "LBU Logo Redesign",
       "tags": [
         "Logo",
         "Redesign"
@@ -117,7 +117,9 @@
         "First attempt",
         "Different orientations and colors",
         "A mock-up",
-        "Another mock-up"
+        "Another mock-up",
+        "Monochrome logo",
+        "Loading animation"
       ]
     },
     {
@@ -306,6 +308,21 @@
         "The components",
         "Final design in different sizes",
         "Mock-up for the final design"
+      ]
+    },
+    {
+      "id": "bands_in_10",
+      "title": "Bands in 10",
+      "tags": [
+        "Playlist Cover"
+      ],
+      "description": "Playlist covers for my project \"Bands in 10\".",
+      "statement": [
+        "I'm making playlists for my favourite bands such as Lovejoy and I DONT KNOW HOW BUT THEY FOUND ME. Check them out on Spotify"
+      ],
+      "captions": [
+        "Lovejoy",
+        "I DONT KNOW HOW BUT THEY FOUND ME"
       ]
     }
   ]
