@@ -157,6 +157,7 @@ const projectsData = {
       ],
       "captions": [
         "Final design",
+        "Pixelated logo",
         "Different color scheme",
         "First sketches",
         "First sketches",
@@ -323,6 +324,245 @@ const projectsData = {
       "captions": [
         "Lovejoy",
         "I DONT KNOW HOW BUT THEY FOUND ME"
+      ]
+    },
+    {
+      "id": "denizli_idmanyurdu",
+      "title": "Denizli İdmanyurdu Güreller SK",
+      "tags": [
+        "Logo",
+        "Redesign"
+      ],
+      "description": "Redesigning the Denizli İdmanyurdu Güreller SK logo",
+      "statement": [
+        "My friend is from Denizli, Turkiye. Denizli İdmanyurdu Güreller SK recently (as of I'm writing this) changed their logo from a relatively bad logo to a BAD one. My friend gave a shot at redesigning and so did I.",
+        "I have always wanted to do a line art logo and this was the one. I think it turned out wonderfully. I made multiple iterations: puffing up the chest, changing the tail... The font I used is \"Anson\".",
+        "I know it's a radical design for a amateur league team."
+      ],
+      "captions": [
+        "Final design",
+        "Their redesign",
+        "With wordmark",
+        "A mock-up with a tileable background",
+        "Previous terations",
+        "Another mock-up"
+      ]
+    },
+    {
+      "id": "ifl26_hoodie",
+      "title": "IFL'26 Hoodie Design",
+      "tags": [
+        "Design"
+      ],
+      "description": "Hoodie design for Izmir Science High Seniors '26.",
+      "statement": [
+        "My friend and I made a design for the seniors' hoodie. The design was his idea, I present my own take on it... but we ended up using his design which is, in my opinion, unbalanced, badly kerned and too thin to be seen from a distance."
+      ],
+      "captions": [
+        "My design",
+        "Previous iterations"
+      ]
+    },
+    {
+      "id": "mom_birthday_24",
+      "title": "Present for Mom",
+      "tags": [
+        "Design"
+      ],
+      "description": "My present for my mom's 54th birthday.",
+      "statement": [
+        "This is a constructed language called Tsevhu. The translations are (from left to right) \"I wish you a happy birthday.\" and \"I love you.\".",
+        "My translation work:",
+        "S O V",
+        "I love you",
+        "I (male)",
+        "nsae /nse/ active",
+        "love",
+        "lonayo v1 /lonajo/ active (verb)",
+        "you (female)",
+        "nin /nin/ stative",
+        "---------------------------------------------------------",
+        "I.a wish.a you.os (a happy birthday).s",
+        "I (male) active",
+        "nsae /nse/ active",
+        "wish",
+        "iido /ɪdo/ v1",
+        "you (female) oblique stative",
+        "nin /nin/ stative",
+        "happy",
+        "auri /aʊɾi/ (adjective)",
+        "birthday",
+        "liinesa /lɪsnɛsɑ/ (noun)",
+        "More on Tsevhu: https://docs.google.com/spreadsheets/d/1Z3GgLvUsjAupx9l_Zo0lBfozFwRk_K_gE6kCBJmuU3Y/edit?usp=sharing"
+      ],
+      "captions": [
+        "The present"
+      ]
+    },
+    {
+      "id": "qubit_magazine",
+      "title": "Cover Page for Qubit Magazine",
+      "tags": [
+        "Design"
+      ],
+      "description": "The cover page for imaginary magazine called \"Qubit\"",
+      "statement": [
+        "The cover page for imaginary tech magazine called \"Qubit\". Font is \"Humane\"."
+      ],
+      "captions": [
+        "Last iteration",
+        "Qubit logo",
+        "My workboard",
+        "First iteration",
+        "2nd iteration",
+        "3rd iteration",
+        "4th iteration",
+        "5th iteration",
+        "Another color scheme"
+      ]
+    },
+    {
+      "id": "itk_student_card",
+      "title": "Student Card Design for ITK",
+      "tags": [
+        "Redesign"
+      ],
+      "description": "A student card to be used in Izmir Turkish Collage",
+      "statement": [
+        "A student card to be used in Izmir Turkish Collage. The \"ÖĞRENCİ\" font is \"Conthrax\"."
+      ],
+      "captions": [
+        "Front",
+        "Back"
+      ]
+    },
+    {
+      "id": "huseyin_yildiz",
+      "title": "Personal Logo for Hüseyin Yıldız",
+      "tags": [
+        "Logo"
+      ],
+      "description": "Logo for Hüseyin Yıldız",
+      "statement": [
+        "Personal logo for my brother's friend Hüseyin Yıldız. \"Yıldız\" means \"star\" in Turkish."
+      ],
+      "captions": [
+        "Final logo",
+        "With his name",
+        "Previous iteration",
+        "More  iterations"
+      ]
+    },
+    {
+      "id": "nilsu_gencel",
+      "title": "Logo for Nilsu Gencel",
+      "tags": [
+        "Logo"
+      ],
+      "description": "Logo for Nilsu Gencel",
+      "statement": [
+        "Logo for Nilsu Gencel"
+      ],
+      "captions": [
+        "The design",
+        "With her name"
+      ]
+    },
+    {
+      "id": "betig",
+      "title": "betig Logo",
+      "tags": [
+        "Logo"
+      ],
+      "description": "Logo design for my project \"betig\"",
+      "statement": [],
+      "captions": [
+        "The logo",
+        "Color scheme to be used in the project"
+      ]
+    },
+    {
+      "id": "gospace",
+      "title": "Logo for gospace",
+      "tags": [
+        "Logo",
+        "Redesign"
+      ],
+      "description": "Logo design for my brother's project \"gospace\"",
+      "statement": [],
+      "captions": [
+        "Final logo",
+        "Without wordmark",
+        "Wordmark",
+        "Previous iteration"
+      ]
+    },
+    {
+      "id": "ifle3",
+      "title": "Logo for Izmir Science High Electric and Electronics Engineers",
+      "tags": [
+        "Logo"
+      ],
+      "description": "Logo design for Izmir Science High Electric and Electronics Engineers",
+      "statement": [],
+      "captions": [
+        "Last design",
+        "A mock-up",
+        "1st iteration",
+        "2nd iteration",
+        "3rd iteration",
+        "More iterations",
+        "MORE iterations",
+        "Variations of 2nd iteration"
+      ]
+    },
+    {
+      "id": "iflpt",
+      "title": "Logo for Izmir Science High Project Team",
+      "tags": [
+        "Logo"
+      ],
+      "description": "Logo design for Izmir Science High Project Team",
+      "statement": [],
+      "captions": [
+        "Final design",
+        "1st iteration",
+        "Color schemes",
+        "A mock-up",
+        "Another mock-up"
+      ]
+    },
+    {
+      "id": "parrot",
+      "title": "Logo for parrot",
+      "tags": [
+        "Logo"
+      ],
+      "description": "Logo for my start-up \"parrot\"",
+      "statement": [],
+      "captions": [
+        "Final design",
+        "Monochrome design",
+        "Wordmark",
+        "Mock-up",
+        "Package pattern"
+      ]
+    },
+    {
+      "id": "tomorrow",
+      "title": "Logo for tomorrow",
+      "tags": [
+        "Logo",
+        "Redesign",
+        "Playlist Cover"
+      ],
+      "description": "Logo for the band tomorrow",
+      "statement": [],
+      "captions": [
+        "Final redesign",
+        "\"Perfect Blue\" Cover",
+        "\"Foxholes\" Cover",
+        "\"Wasted Summer\" Cover"
       ]
     }
   ]
