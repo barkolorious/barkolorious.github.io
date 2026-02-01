@@ -722,5 +722,5 @@ document.addEventListener('keydown', function(e) {
   }
 });
 
-const lastEditDate = '2025-1-5';
+const lastEditDate = '2026-2-1';
 document.getElementById('lastUpdated').textContent = new Date(lastEditDate).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
